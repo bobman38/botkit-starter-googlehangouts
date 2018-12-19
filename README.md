@@ -51,7 +51,7 @@ You can also specify a verification token `GOOGLE_VERIFICATION_TOKEN` and `PORT`
 
 `PORT=YOUR_APP_PORT GOOGLE_APPLICATION_CREDENTIALS=YOUR_GOOGLE_CREDENTIALS_FILE GOOGLE_VERIFICATION_TOKEN=YOUR_GOOGLE_VERIFICATION_TOKEN node bot.js`
 
-#### Google Credentials on Heroku like environement
+#### Loading credentials from environment variables
 
 If you are running on Heroku you can't rely on a json file. You must have the json
 available as a environment variable direclty. It is described [here](https://github.com/googleapis/google-auth-library-nodejs/blob/master/README.md#loading-credentials-from-environment-variables).
